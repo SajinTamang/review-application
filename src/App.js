@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import { BrowserRouter as Router, NavLink, Route,Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route,Routes } from "react-router-dom";
 
 import AbouticonLink from "./components/AbouticonLink";
 import FeedbackForm from "./components/FeedbackForm";
