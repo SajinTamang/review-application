@@ -34,15 +34,6 @@ function App(){
             <Routes>
               <Route path="/about" element={<About />} />
             </Routes>
-
-            {/* <Card>
-            <NavLink to="/" activeClassName="active">
-              Home
-            </NavLink>
-            <NavLink to="/about" activeClassName="active">
-              About
-            </NavLink>
-          </Card> */}
             <AbouticonLink />
           </div>
         </Router>
