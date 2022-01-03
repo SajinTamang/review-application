@@ -3,7 +3,7 @@ import { useState   } from 'react'
 
 function RatingSelect({ select }) {
   const [selected, setSelected] = useState()
-const [state,setState]= useState()
+// const [state,setState]= useState()
 //   const { feedbackEdit } = useContext(FeedbackContext)
 
 // //   useEffect(() => {
@@ -13,7 +13,7 @@ const [state,setState]= useState()
   const handleChange = (e) => {
       setSelected(+e.currentTarget.value)
       select(+e.currentTarget.value)
-   }
+   } 
 
 
   return (

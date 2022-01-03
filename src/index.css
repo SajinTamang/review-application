@@ -158,7 +158,11 @@ input:focus {
 .btn-primary {
     background-color: #202142;
 }
-
+.active{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
 .btn-secondary {
     background: #ff6a95;
 }
